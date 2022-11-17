@@ -12,4 +12,18 @@
 @import url("../blocks/lead/__subtitle/lead__subtitle.css");
 /* Image */
 @import url("../blocks/lead/__image/lead__image.css");
+
 /*-----------------------------------------------------------------*/
+
+/* intro SECTION */
+@import url("../blocks/intro/intro.css");
+/* Container */
+@import url("../blocks/container/container.css");
+/* Title */
+@import url("../blocks/intro/__title/intro__title.css");
+/* Quote */
+@import url("../blocks/container/__quote/container__quote.css");
+/* Quote_author*/
+@import url("../blocks/container/__quote/_author/container__quote_author.css");
+/* Text */
+@import url("../blocks/intro/__text/intro__text.css");
