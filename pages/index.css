@@ -27,3 +27,10 @@
 @import url("../blocks/container/__quote/_author/container__quote_author.css");
 /* Text */
 @import url("../blocks/intro/__text/intro__text.css");
+
+/*-----------------------------------------------------------------*/
+
+/*photo-grid SECTION*/
+@import url("../blocks/photo-grid/photo-grid.css");
+/*Images*/
+@import url("../blocks/photo-grid/__image/photo-grid__image.css");

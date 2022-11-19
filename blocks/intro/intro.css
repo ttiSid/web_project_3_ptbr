@@ -3,3 +3,11 @@
   margin: 0 9% 0 11.563%; /*.56*/
   padding: 5.75rem 0;
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 93.75%;
+    margin: 0 auto;
+    padding: 5.5rem 0;
+  }
+}
