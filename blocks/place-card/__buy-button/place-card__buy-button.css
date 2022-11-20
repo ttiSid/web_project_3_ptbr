@@ -16,3 +16,9 @@
 .place-card__buy-button:hover {
   background-color: #0063d2;
 }
+
+@media screen and (max-width: 768px) {
+  .place-card__buy-button {
+    margin: 3rem 0 0;
+  }
+}

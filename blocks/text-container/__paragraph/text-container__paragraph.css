@@ -5,3 +5,9 @@
   line-height: 1.61;
   font-weight: 400;
 }
+
+@media screen and (max-width: 768px) {
+  .text-container__paragraph {
+    font-size: 16px;
+  }
+}

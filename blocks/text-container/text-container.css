@@ -1,6 +1,5 @@
 .text-container {
   display: grid;
-  /* grid-area: 3 / 4 / 6 / 6; */
   grid-area: __text-container;
   gap: 25px;
   margin: 0;

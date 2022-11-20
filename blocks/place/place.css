@@ -1,9 +1,17 @@
 .place {
   display: grid;
-  max-width: 987px;
+  max-width: 77.1%;
   margin: 0 auto;
   padding: 5.75rem 0;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   row-gap: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    padding: 5.5rem 0;
+    max-width: 93.75%;
+    row-gap: 4.5rem;
+  }
 }
