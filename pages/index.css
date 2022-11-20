@@ -30,7 +30,28 @@
 
 /*-----------------------------------------------------------------*/
 
-/*photo-grid SECTION*/
+/* photo-grid SECTION */
 @import url("../blocks/photo-grid/photo-grid.css");
-/*Images*/
+/* Images */
 @import url("../blocks/photo-grid/__image/photo-grid__image.css");
+
+/* Place SECTION */
+@import url("../blocks/place/place.css");
+/* place-card */
+@import url("../blocks/place-card/place-card.css");
+/* Title */
+@import url("../blocks/place-card/__title/place-card__title.css");
+/* Author container*/
+@import url("../blocks/author-container/author-container.css");
+/* Author */
+@import url("../blocks/author-container/__author/author-container__author.css");
+/* Author name */
+@import url("../blocks/author-container/__author-name/author-container__author-name.css");
+/* Image */
+@import url("../blocks/place-card/__image/place-card__image.css");
+/* Text container */
+@import url("../blocks/text-container/text-container.css");
+/* Paragraph */
+@import url("../blocks/text-container/__paragraph/text-container__paragraph.css");
+/* Buy Button*/
+@import url("../blocks/place-card/__buy-button/place-card__buy-button.css");

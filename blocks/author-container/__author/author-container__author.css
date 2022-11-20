@@ -1,0 +1,10 @@
+.author-container__author {
+  margin: 0 0 8px;
+  font-weight: 400;
+  display: block;
+  color: #aaaaaa;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}

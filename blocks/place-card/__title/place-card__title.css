@@ -1,0 +1,9 @@
+.place-card__title {
+  margin: 0;
+  color: #ffffff;
+  font-size: 72px;
+  line-height: 1.06;
+  font-weight: 900;
+  font-style: normal;
+  grid-area: __title;
+}
