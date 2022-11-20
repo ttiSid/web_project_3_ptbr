@@ -1,5 +1,9 @@
 .place {
+  display: grid;
   max-width: 987px;
   margin: 0 auto;
-  padding: 0;
+  padding: 5.75rem 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  row-gap: 5rem;
 }
