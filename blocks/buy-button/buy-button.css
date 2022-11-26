@@ -1,6 +1,6 @@
-.place-card__buy-button {
+.buy-button {
   grid-area: __buy-button;
-  margin: 4rem 0 0;
+  margin: 0;
   color: #ffffff;
   padding: 0.81rem 1.25rem;
   border-radius: 4px;
@@ -13,12 +13,12 @@
   text-decoration: none;
 }
 
-.place-card__buy-button:hover {
+.buy-button:hover {
   background-color: #0063d2;
 }
 
 @media screen and (max-width: 768px) {
-  .place-card__buy-button {
+  .buy-button {
     margin: 3rem 0 0;
   }
 }

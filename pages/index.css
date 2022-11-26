@@ -35,6 +35,8 @@
 /* Images */
 @import url("../blocks/photo-grid/__image/photo-grid__image.css");
 
+/*-----------------------------------------------------------------*/
+
 /* Place SECTION */
 @import url("../blocks/place/place.css");
 /* place-card */
@@ -54,4 +56,15 @@
 /* Paragraph */
 @import url("../blocks/text-container/__paragraph/text-container__paragraph.css");
 /* Buy Button*/
-@import url("../blocks/place-card/__buy-button/place-card__buy-button.css");
+@import url("../blocks/buy-button/buy-button.css");
+
+/*-----------------------------------------------------------------*/
+
+/* Cover SECTION */
+@import url("../blocks/cover/cover.css");
+/* Cover Container */
+@import url("../blocks/cover-container/cover-container.css");
+/* Title */
+@import url("../blocks/cover-container/__title/cover-container__title.css");
+/* Subtitle */
+@import url("../blocks/cover-container/__subtitle/cover-container__subtitle.css");
