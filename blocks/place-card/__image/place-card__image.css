@@ -2,3 +2,9 @@
   max-width: 100%;
   grid-area: __image;
 }
+
+@media screen and (max-width: 320px) {
+  .place-card__image {
+    max-width: 320px;
+  }
+}

@@ -7,3 +7,11 @@
   text-align: center;
   margin: 5.6rem auto 0;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lead__title {
+    margin: 3.12rem auto 0;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

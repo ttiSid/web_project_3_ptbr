@@ -4,3 +4,9 @@
   align-items: center;
   gap: 2rem;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover-container {
+    gap: 1rem;
+  }
+}

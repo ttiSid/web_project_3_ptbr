@@ -8,10 +8,21 @@
   row-gap: 5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .place {
     padding: 5.5rem 0 5.75rem;
     max-width: 93.75%;
     row-gap: 4.5rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0;
+    padding: 3.87rem 0 4rem;
+    row-gap: 3.12rem;
   }
 }

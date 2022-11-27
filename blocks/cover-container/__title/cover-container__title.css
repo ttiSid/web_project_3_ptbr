@@ -6,3 +6,10 @@
   line-height: 1.06;
   text-align: center;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover-container__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

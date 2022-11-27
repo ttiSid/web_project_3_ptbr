@@ -16,3 +16,11 @@
 .buy-button:hover {
   background-color: #0063d2;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .buy-button {
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+}

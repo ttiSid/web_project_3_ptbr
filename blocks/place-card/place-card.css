@@ -3,18 +3,26 @@
   display: grid;
   justify-content: center;
   grid-template-columns: 46.6% 2.5rem 49.03%;
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(3, auto);
   gap: 3rem 0px;
   grid-template-areas:
     "__title  .  author-container"
     "__image  .  __text-container"
-    "__buy-button  __buy-button  __text-container"
-    ". . __text-container"
-    ". . __text-container";
+    "__buy-button  __buy-button  __text-container";
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .place-card {
     grid-template-columns: 47.2% 1.75rem 48.21%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-self: center;
+    gap: 1.87rem;
   }
 }

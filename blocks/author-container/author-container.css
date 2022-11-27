@@ -1,3 +1,10 @@
 .author-container {
   grid-area: author-container;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .author-container {
+    margin: 0 1rem;
+    max-width: 90%;
+  }
+}
