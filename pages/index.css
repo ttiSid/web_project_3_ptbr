@@ -68,3 +68,8 @@
 @import url("../blocks/cover-container/__title/cover-container__title.css");
 /* Subtitle */
 @import url("../blocks/cover-container/__subtitle/cover-container__subtitle.css");
+
+/* Footer */
+@import url("../blocks/footer/footer.css");
+/* Copyright */
+@import url("../blocks/footer/__copyright/footer__copyright.css");

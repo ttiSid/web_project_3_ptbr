@@ -1,13 +1,14 @@
 .cover {
+  align-items: center;
   background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)),
     url("../../images/__background.jpg");
-  max-width: 1184px;
-  min-height: 740px;
   background-position: bottom center;
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
+  max-width: 1184px;
+  margin: 0 auto;
+  min-height: 740px;
 }
 
 .cover:hover {
