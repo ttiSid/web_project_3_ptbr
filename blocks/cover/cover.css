@@ -1,11 +1,18 @@
 .cover {
-  max-width: 1184px;
   background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)),
     url("../../images/__background.jpg");
+  max-width: 1184px;
   min-height: 740px;
   background-position: bottom center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cover:hover {
+  background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)),
+    url("../../images/__background.jpg");
+  background-position: bottom center;
+  background-size: cover;
 }
