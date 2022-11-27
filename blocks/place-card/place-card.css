@@ -3,14 +3,12 @@
   display: grid;
   justify-content: center;
   grid-template-columns: 46.6% 2.5rem 49.03%;
-  grid-template-rows: repeat(7, auto);
+  grid-template-rows: repeat(5, auto);
   gap: 3rem 0px;
   grid-template-areas:
-    "__title  .  ."
     "__title  .  author-container"
     "__image  .  __text-container"
     "__buy-button  __buy-button  __text-container"
-    ". . __text-container"
     ". . __text-container"
     ". . __text-container";
 }

@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    padding: 5.5rem 0;
+    padding: 5.5rem 0 5.75rem;
     max-width: 93.75%;
     row-gap: 4.5rem;
   }
